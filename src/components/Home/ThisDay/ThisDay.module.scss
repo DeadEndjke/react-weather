@@ -1,0 +1,35 @@
+@import "./../../../variables.scss";
+
+.thisday {
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  background: var(#{--components-background-default});
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+}
+
+.topblock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+  .thistemp {
+    font-size: 96px;
+    font-weight: 500;
+    color: $primary-color;
+  }
+  .thisdayname {
+    font-size: 40px;
+    color: $light-color;
+  }
+}
+
+.botblock {
+  .thistime,
+  .thiscity {
+    color: $base-color;
+    font-size: 25px;
+  }
+}

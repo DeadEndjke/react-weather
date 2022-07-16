@@ -1,0 +1,5 @@
+create-react-app --template typescript
+react-router-dom @types/react-router-dom
+react-select @types/react-select
+sass
+normalize.css
