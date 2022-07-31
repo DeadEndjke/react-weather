@@ -1,6 +1,7 @@
 @import "./../../../variables.scss";
 
 .thisday {
+  cursor: pointer;
   padding: 20px;
   max-width: 400px;
   width: 100%;
@@ -22,7 +23,7 @@
   }
   .thisdayname {
     font-size: 40px;
-    color: $light-color;
+    color: var(#{--text-color-default});
   }
 }
 

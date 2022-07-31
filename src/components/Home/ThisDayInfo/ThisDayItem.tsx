@@ -14,7 +14,7 @@ export const ThisDayItem = ({ item }: Props) => {
         <IndicatorSelector id={icon_id} />
       </div>
       <div className={s.indicatorname}>{name}</div>
-      <div className={s.indicatorvalue}>{value}</div>
+      {/* <div className={s.indicatorvalue}>{value}</div> */}
     </div>
   );
 };

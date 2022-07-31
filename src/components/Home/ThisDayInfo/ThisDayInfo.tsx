@@ -2,7 +2,9 @@ import s from "./ThisDayInfo.module.scss";
 import cloud from "./../../../assets/cloud.svg";
 import { ThisDayItem } from "./ThisDayItem";
 
-interface Props {}
+interface Props {
+  temp: number | undefined;
+}
 
 export interface Item {
   icon_id: string;
